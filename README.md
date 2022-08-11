@@ -1,53 +1,10 @@
 # 最全的 Android 技术栈
 
-内容涵盖绝大部分 Android 程序员所需要的技能：「**数据结构算法**」「**程序架构**」「**设计模式**」「**性能优化**」「**组件化**」「**插件化**」「**热修复**」「**NDK技术**」「**自定义View**」「**性能优化**」「**Android源码分析**」「**深入理解Kotlin**」「**Java核心技术**」「**Jetpack**」「**Router**」「**Flutter**」「**RxJava**」「**Glide**」「**LeakCanary**」「**Dagger2**」「**Retrofit**」「**OkHttp**」「**ButterKnife**」「**GreenDAO**」「**经典书籍**」等。如果您有任何问题或建议欢迎 [**Issues**](https://github.com/chiclaim/AndroidAll/issues/new) 。 核心知识脉络：
+Android 程序员所需要的技能：「**数据结构算法**」「**程序架构**」「**设计模式**」「**性能优化**」「**组件化**」「**NDK技术**」「**自定义View**」「**性能优化**」「**Android源码分析**」「**深入理解Kotlin**」「**Java核心技术**」「**Jetpack**」「**Router**」「**Flutter**」「**RxJava**」「**Glide**」「**LeakCanary**」「**Dagger2**」「**Retrofit**」「**OkHttp**」「**ButterKnife**」「**GreenDAO**」「**经典书籍**」等。如果您有任何问题或建议欢迎 [**Issues**](https://github.com/chiclaim/AndroidAll/issues/new) 。 Android 知识脉络路线图：
 
-- **Java核心技术**
-  - Java 集合框架原理
-  - Java 网络编程
-  - Java 多线程、线程池、并发库
-  - Java I/O，覆盖绝大部分 I/O 类
-  - JVM 虚拟机技术
+![android-roadmap](/xmind/Android_RoadMap.png)
 
-- **深入理解Kotlin技术**
-  - Kotlin 类型体系
-  - Kotlin 面向对象
-  - Lambda 表达式
-  - 高阶函数
-  - 彻底搞懂 Kotlin 泛型
-  - Kotlin 集合
-  - 操作符重载
-  - Kotlin 协程
 
-- **Android基础**
-  - 四大组件
-  - Activity 启动模式
-  - 数据存储
-  - 异步操作
-  - IPC
-  - 熟悉常用框架的使用
-
-- **Android进阶**
-  - UI 原理
-  - 性能优化
-  - 常用的开源框架实现原理](#Android开源框架)
-  - Android 架构（MVC、MVP、MVVM、Clean、Jetpack）
-  - 设计模式、6 大设计原则](#设计模式)
-  - AOP、IoC、DI
-  - APT、Gradle Plugin、ASM、Javassist、AspectJ
-  - 组件化、插件化、热修复
-  - NDK 技术
-  - Android 虚拟机
-  
-- **跨平台**
-  - Flutter
-  - ReactNative
-  - Weex
-
-- **团队**
-  - 如何提高整体的团队水平？
-  - 如何提高提高团队内代码质量？
-  - 如何提高团队积极性？
 
 ## #Java核心技术#
 
@@ -60,7 +17,7 @@
 除此以外，还需要我们对 Java 执行机制有一定了解，这个时候可要求我们对 Java 虚拟机有一定的掌握。如 class 字节码、类加载器、垃圾回收机制等。
 
 关于这方面的知识，可以学习参考我之前的一些总结：
- 
+
 **Java基础：**
 
 - [Java 反射技术详解](https://blog.csdn.net/johnny901114/article/details/7538998)
@@ -143,10 +100,51 @@
 
 关于这 Koltin 相关的资料大家可参考我下面的文章，其中包括：类型体系、Lambda 表达式、高阶函数、泛型、集合、操作符重载、协程等 Kotlin 核心概念等：
 
-- [Kotlin 基础入门详解](https://chiclaim.blog.csdn.net/article/details/88624808)
-- [从 Java 角度深入理解 Kotlin](https://chiclaim.blog.csdn.net/article/details/85575213)
-- [Kotlin 操作符重载详解](https://chiclaim.blog.csdn.net/article/details/86706874)
+以下是我在 B 站录制的 Kotlin 教程：
 
+- [x] [Kotlin入门到进阶(1)——前言](https://www.bilibili.com/video/BV1hR4y1A7Vu/)
+- [x] [Kotlin入门到进阶(2)——变量、函数入门](https://www.bilibili.com/video/BV1Ur4y1t7a3/)
+- [x] [Kotlin入门到进阶(3)——表达式、语句及与 Java 的对比](https://www.bilibili.com/video/BV1r54y1f7gT/)
+- [x] [Kotlin入门到进阶(4)——结构化编程：顺序结构、选择结构、循环结构](https://www.bilibili.com/video/BV1bu41167Dr/)
+- [x] [Kotlin入门到进阶(5)——空安全(Null Safety)和实战技巧](https://www.bilibili.com/video/BV1AY4y1t7hX/)
+- [x] [Kotlin入门到进阶(6)——类型系统和访问修饰符详解](https://www.bilibili.com/video/BV18Y4y1z7h8/)
+- [x] [Kotlin入门到进阶(7)——数组类型和它的扩展函数](https://www.bilibili.com/video/BV1RB4y1y7bU/)
+- [x] [Kotlin入门到进阶(8)——Nothing 类型, 不为人知的细节](https://www.bilibili.com/video/BV1SR4y1c7Xm/)
+- [x] [Kotlin入门到进阶(9)——深入理解 Kotlin 集合、序列](https://www.bilibili.com/video/BV1o54y1Z7s3/)
+- [x] [Kotlin入门到进阶(10)——聊一聊 Kotlin String](https://www.bilibili.com/video/BV1z3411G7gA/)
+- [x] [Kotlin入门到进阶(11)——再谈 Kotlin 函数](https://www.bilibili.com/video/BV13F411j7mF/)
+- [x] [Kotlin入门到进阶(12)——彻底搞懂 Class 和 Interface](https://www.bilibili.com/video/BV1ev4y1A7kM/)
+- [x] [Kotlin入门到进阶(13)——Java Property 和 Field 你真的懂么？](https://www.bilibili.com/video/BV1At4y1s7sE/)
+- [x] [Kotlin入门到进阶(14)——lateinit property 案例实战](https://www.bilibili.com/video/BV1CY4y1678g/)
+- [x] [Kotlin入门到进阶(15)——深入理解属性代理(一) by lazy、Delegates.observable](https://www.bilibili.com/video/BV1j3411V7Ve/)
+- [x] [Kotlin入门到进阶(16)——深入理解属性委托(二) 代码演示 LazyThreadSafetyMode 的区别](https://www.bilibili.com/video/BV18Z4y147b2/)
+- [x] [Kotlin入门到进阶(17)——深入理解属性委托(三) by map 和委托模式](https://www.bilibili.com/video/BV1at4y1p7iB/)
+- [x] [Kotlin入门到进阶(18)——枚举(一)为什么要有枚举？](https://www.bilibili.com/video/BV1it4y1p7TA/)
+- [x] [Kotlin入门到进阶(19)——枚举(二)枚举 API 特性](https://www.bilibili.com/video/BV1jU4y117Q9/)
+- [x] [Kotlin入门到进阶(20)——枚举(三)枚举的本质](https://www.bilibili.com/video/BV1W3411G7n9/)
+- [x] [Kotlin入门到进阶(21)——枚举(四)枚举 switch case 原理分析](https://www.bilibili.com/video/BV1SS4y1v7Pm/)
+- [x] [Kotlin入门到进阶(22)——枚举(五)枚举的最佳实践](https://www.bilibili.com/video/BV1oY411T7d2/)
+- [x] [Kotlin入门到进阶(23)——Kotlin1.7 枚举、密封类新特性解读 & 枚举 VS 密封类](https://www.bilibili.com/video/BV1vZ4y1t7Gr/)
+- [x] [Kotlin入门到进阶(24)——操作符重载全解](https://www.bilibili.com/video/BV1LZ4y1q7hE/)
+- [x] [Kotlin入门到进阶(25)——优雅的文件 I/O 操作](https://www.bilibili.com/video/BV1Jt4y1H7ru/)
+- [x] [Kotlin入门到进阶(26)——异常(一) Kotlin 异常与 Java 的异同](https://www.bilibili.com/video/BV1SY4y1W76G/)
+- [x] [Kotlin入门到进阶(27)——异常(二) Kotlin异常设计理念、如何设计异常API](https://www.bilibili.com/video/BV1A3411u7UB/)
+- [x] [Kotlin入门到进阶(28)——注解](https://www.bilibili.com/video/BV1c3411w77q)
+- [x] [Kotlin入门到进阶(29)——深入理解反射](https://www.bilibili.com/video/BV13Y4y1n7X7/)
+- [x] [Kotlin入门到进阶(30)——深入理解 lambda 表达式](https://www.bilibili.com/video/BV1L34y1p7ax/)
+- [x] [Kotlin入门到进阶(31)——彻底搞懂高阶函数](https://www.bilibili.com/video/BV13T411g714/)
+
+接下来，会更新的主题：
+
+- [ ] Enum 起源
+- [ ] Kotlin Exception 设计理念
+- [ ] 注解、反射
+- [ ] Lambda
+- [ ] 高阶函数
+- [ ] inline crossinline noinline
+- [ ] 泛型
+- [ ] return、continue
+- [ ] 协程
 
 
 ## #设计原则与模式#
